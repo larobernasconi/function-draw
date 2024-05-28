@@ -1,3 +1,9 @@
+let steps = 50; 
+let x=[1]; 
+let min = 1.0001; 
+let max = 1.2; 
+let count = min; 
+let increasing = true; 
 
 function setup() {
 	createCanvas( windowWidth, windowHeight ); 
@@ -5,14 +11,6 @@ function setup() {
 	strokeWeight(1)
 	stroke("white"); 
 }
-
-
-let steps = 50; 
-let x=[1]; 
-let min = 1.0001; 
-let max = 1.2; 
-let count = min; 
-let increasing = true; 
 
 function createCounter(min, max) {
 
